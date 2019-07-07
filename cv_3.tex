@@ -1,0 +1,456 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Freeman Curriculum Vitae
+% XeLaTeX Template
+% Version 2.0 (19/3/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%!TEX program = xelatex
+% NOTICE: This template must be compiled with XeLaTeX, the line above should
+% ensure this happens automatically but if it doesn't you will need to specify 
+% XeLaTeX as the engine in your editor or script
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Font size, can be: 10pt, 11pt or 12pt
+
+\input{structure.tex} % Include the file that specifies the document structure
+
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example right footer:
+%\rfoot{\color{headings}{\sffamily Last update: \today. Typeset with Xe\LaTeX}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{paracol}{2} % Begin the multi-column environment
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CURRICULUM VITAE TEXT
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
+	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\centering % Centre text
+	{\sffamily\Huge Ahmed E. Mohamed, MSc.}\\\medskip % Your name
+	{\Huge\color{headings}\cvtextfont Curriculum Vitae}
+}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+% Blank \workposition command to add another job:
+
+%\workposition{} % Duration
+%{} % FT/PT (full time or part time)
+%{} % Employer
+%{} % Job title
+%{} % Description
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\workposition{Current, from Oct 2017} % Duration
+{FT} % FT/PT (full time or part time)
+{VDIS} % Employer
+{Senior Embedded systems Engineer} % Job title
+{Maintain, upgrade and modify embedded systems as needed.
+Work with Manager in developing technical specifications based on customer requirements.
+Analyze system technical issues and develop appropriate resolutions.
+Coordinate with design, development, testing and implementation teams to plan and complete assigned projects within deadlines.
+Participate in system design reviews and recommend improvements.
+Identify technical risks and challenges and propose action plans.
+Support in integrating modules to existing systems and perform integrating testing.
+Assist in preparing system design and architecture documents.
+Provide support in system testing and bug fixing activities.
+Assist Manager in determining project budget and timelines.} % Description
+
+%------------------------------------------------
+
+\workposition{Feb 2017 -- Apr 2017} % Duration
+{PT} % FT/PT (full time or part time)
+{CIC} % Employer
+{PAC Development Trainer} % Job title
+{Responsible for training undergrad students to use the state of the art industrial NI PAC controllers in advanced motion planning and sensor array deployments in hazardous areas}  % Description
+
+%------------------------------------------------
+
+\workposition{Mar 2015 -- June 2016} % Duration
+{PT} % FT/PT (full time or part time)
+{EgyCet} % Employer
+{Instructor} % Job title
+{Responsible for teaching ``HIT" students a complete electronics professional diploma including digital, analog, and mixed electronics.} % Description
+
+%------------------------------------------------
+\workposition{June 2015 -- Mar 2016} % Duration
+{PT} % FT/PT (full time or part time)
+{ALPHA ELECTRONICS} % Employer
+{Embedded Systems Architect} % Job title
+{leading a technical team to design, analyse, implement, test, and support the company products. This team activities includes schematic, wiring, simulation, PCB layout, testing, and delivery of projects.} % Description
+
+%------------------------------------------------
+\workposition{SEPT 2011 -- SEPT 2013} % Duration
+{PT} % FT/PT (full time or part time)
+{ATOMIC ENERGY AUTHORITY} % Employer
+{Intern} % Job title
+{Co-developed ``RADMON" project to monitor, record gamma radiation levels and provide various alarming levels.}
+
+%------------------------------------------------
+\workposition{JUNE 2010 -- SEPTEMBER 2010} % Duration
+{FT} % FT/PT (full time or part time)
+{DELTA SUGAR COMPANY} % Employer
+{Intern} % Job title
+{Trained to handle both modern industrial automation system, data acquisition systems and drivers.}
+
+%------------------------------------------------
+\workposition{JUNE 2003 -- MAY 2005} % Duration
+{FT} % FT/PT (full time or part time)
+{THE EGYPTIAN COMPANY FOR ELECTRICAL POWER TRANSMISSION} % Employer
+{Intern} % Job title
+{Trained to operate and maintain power transmission substations and different kinds of faults.}
+
+%------------------------------------------------
+
+\vspace{-\baselineskip}\medskip % Standardise the whitespace after this section and before the next (the custom command adds too much otherwise)
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{References}
+
+%\textit{References available on request}
+
+%------------------------------------------------
+
+% Example \tableentry{} command to add another line:
+
+%\tableentry{Heading}{Content}{spaceafter}
+
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+	
+	%------------------------------------------------
+	
+	\tableentry{}{\textbf{Heba El-quadi}}{}
+	\tableentry{Position}{CEO}{}
+	\tableentry{Employer}{VDIS}{}
+	\tableentry{}{h.elqadi@vdis-eg.com}{\href{mailto:h.elqadi@vdis-eg.com}}
+	\tableentry{Phone}{+20 (10) 7 163667}{}
+	\tableentry{Mobile}{+20 (12) 7 2985776}{}
+	%------------------------------------------------
+	
+	\tableentry{}{}{} % Creates some additional whitespace between the references
+	
+	%------------------------------------------------
+	
+	\tableentry{}{\textbf{Magda B. Fayek}}{Scientist}
+	\tableentry{Position}{Professor}{}
+	\tableentry{Employer}{Cairo Universty}{Artificial Intelligence}
+	\tableentry{Email}{magdafayek@ieee.org}{\href{mailto:magdafayek@ieee.org}}
+	\tableentry{Mobile}{+20 (10) 0 1589411}{}
+	
+	%------------------------------------------------
+
+\end{supertabular}
+
+\medskip % Extra whitespace before the next section
+\section{Projects}
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+	
+	%------------------------------------------------
+	
+	\tableentry{GOPP}{\textbf{GIS }}{}
+	\tableentry{enf-comm}{\textbf{Web portal \& mobile application}}{}
+	\tableentry{MOJ}{\textbf{ICT infra-structure assessment}}{}
+	\tableentry{ESA}{\textbf{Automating Agricultural Records Systems}}{}
+	\tableentry{Haier}{\textbf{Refrigerator automation system}}{}
+	\tableentry{alex petroleum}{\textbf{Oil treatment' waste refinement system}}{}
+	\tableentry{Kempinski Hotel}{200 Locations adaptive brightness control}{}
+	\tableentry{Elision}{ELEVATOR EMERGENCY BACKUP SYSTEM}{}
+	\tableentry{EAEA}{Nuclear plant remote logging, and alarming system}{}
+	\tableentry{OHIE}{Remote realtime image transfer}{}
+	%------------------------------------------------
+\end{supertabular}
+
+
+
+
+
+\medskip % Extra whitespace before the next section
+%----------------------------------------------------------------------------------------
+\medskip % Extra whitespace before the next section
+\switchcolumn % Switch to the next paracol column
+
+%----------------------------------------------------------------------------------------
+%	COLOURED CONTACT DETAILS BOX
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
+	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\colorbox{shade}{ % Create the coloured box
+		\begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
+			\raisebox{-1pt}{\faHome} & 28 Ghaza st, Mohandeseen, Giza, Egypt \\ % Address
+			\raisebox{-1pt}{\faPhone} & +20 (10) 2323-0221 \\ % Phone number
+			\raisebox{0pt}{\small\faEnvelope} & \href{mailto:a.ezzat@vdis-eg.com}{a.ezzat@vdis-eg.com} \\ % Email address
+			\raisebox{0pt}{\small\faEnvelope} & \href{ahmed.e.mohamed@eng1.cu.edu.eg}{ahmed.e.mohamed@eng1.cu.edu.eg} \\ % Email address
+			\raisebox{-1pt}{\small\faDesktop} & \href{https://www.linkedin.com/in/mr1dsgn/}{https://www.linkedin.com/in/mr1dsgn} \\ % Website
+			\raisebox{-1pt}{\small\faDesktop} & \href{https://scholar.google.com/citations?user=mr1dsgn}{scholar.google.com/citations?user=mr1dsgn} \\ % Website
+
+			%\raisebox{-1pt}{\faGithub} & \href{https://github.com/username}{https://github.com/username} \\ % GitHub profile
+			%\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/username}{https://www.linkedin.com/in/username} \\ % LinkedIn profile
+			% See fontawesome.pdf in the fonts folder for all icons you can use
+		\end{supertabular}
+	}
+}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education} 
+
+% Blank \educationentry{} command to add another degree:
+
+%\educationentry{} % Duration
+%{} % Degree
+%{} % Honours, achievements or distinctions (e.g. first class honours)
+%{} % Department
+%{} % Institution
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+	
+	\educationentry{2017 -- Present} % Duration
+	{Master of Science} % Degree
+	{} % Honours, achievements or distinctions (e.g. first class honours)
+	{Computer Engineering} % Department
+	{Cairo University} % Institution
+	
+	%------------------------------------------------
+	
+	\educationentry{2017} % Duration
+	{Master of Engineering} % Degree
+	{} % Honours, achievements or distinctions (e.g. first class honours)
+	{Computer Engineering} % Department
+	{Cairo University} % Institution
+	
+	%------------------------------------------------
+	
+	\educationentry{2008 -- 2013} % Duration
+	{Bachelor Computers Control Engineering} % Degree
+	{First Class Honours} % Honours, achievements or distinctions (e.g. first class honours)
+	{ Computers Control Engineering Department} % Department
+	{OHIE} % Institution
+	
+	%------------------------------------------------
+
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+%
+%% Example \tableentry{} command to add another line:
+%
+%%\tableentry{Heading}{Content}{spaceafter}
+%
+%% All 3 parameters must be supplied but any can be empty if you don't need them
+%% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+%
+%%------------------------------------------------
+%
+%\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+%	
+%	%------------------------------------------------
+%	
+%	\tableentry{1985}{\textbf{Faculty of Science Masters Scholarship}}{}
+%	\tableentry{}{\textit{Massachusetts Institute of Technology}}{spaceafter}
+%	
+%	%------------------------------------------------
+%	
+%	\tableentry{1983}{\textbf{Top Achiever Award -- Physics}}{}
+%	\tableentry{}{\textit{The University of Washington}}{spaceafter}
+%	
+%	%------------------------------------------------
+%	
+%\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills} 
+
+% Example \tableentry{} command to add another line:
+
+%\tableentry{Heading}{Content}{spaceafter}
+
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+	
+	%------------------------------------------------
+	
+	\tableentry{Productivity}{System design, UML , \LaTeX{}}
+	
+	%------------------------------------------------
+	
+	\tableentry{Software}{Algorithm design, Web, GIS,DB , OS}{spaceafter} 
+
+	
+	%------------------------------------------------
+	
+	\tableentry{Hardware}{Automation, ICT, PCB}{spaceafter} 
+	
+	%------------------------------------------------
+	
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Communication Skills}
+
+% Example \tableentry{} command to add another line:
+
+%\tableentry{Heading}{Content}{spaceafter}
+
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+	
+	%------------------------------------------------
+	
+	\tableentry{Conferences}{Oral presentation at ICCES 2017 }{13th IEEE International Conference on Computer Engineering and Systems (ICCES 2017)}
+	\tableentry{Languages}{Arabic, English }{}
+
+	%------------------------------------------------
+	
+\end{supertabular}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS DESCRIPTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+% Example \longformdescription{} command to add another section:
+
+%\longformdescription{Heading}{Description}
+
+%------------------------------------------------
+
+\longformdescription{Goal Oriented}{I believe in action over long-winded discussions. I listen to everyone's viewpoints and use my judgement to immediately act based on consensus to achieve goals quickly and efficiently.}\\
+\longformdescription{Passionate}{I have been interested in theoretical physics such as quantum mechanics and relativity from an early age. My education and research have cemented this interest into a passion. I greatly enjoy carrying out fundamental physics research with potential practical applications.}\\
+\longformdescription{Hobbies}{I'm interested in practicing running, rowing, reading, and classical guitar}\\
+\longformdescription{HPC}{BigDL, Spark, Hadoop, Cloud systems design, GPGPU}\\
+\longformdescription{Protocaols}{ATM, USART, I2C, SPI, CAN, LIN, Profibus, ProfiNet, MODBUS RTU, OPC, USB, TCP, IP, PCI}\\
+\longformdescription{Programming Techniques}{Multi tier, OOP, MVC, Data flow, Functional, RTOS}\\
+\longformdescription{Programming Languages}{C98, C99, ANSI C, C11, CUDA C C++11, C++17, Python, C\#, JAVA, LabVIEW, LADDER, Structured text, Swift}\\
+\longformdescription{Circuit design and printing}{Altium designer, Mentor graphics expedition PCB, Circuits thermal simulation, EMC analysis}\\
+\longformdescription{Meta-heuristics}{Genetic Algorithms, Ant Colony, Bee colony, Bee hive, Gray wolf}\\
+\longformdescription{Machine learning}{Clustering, Classification, Regression}\\
+\longformdescription{Technology}{KERAS, Open CV, SKLearn, Theano, Torch, Tensor flow}\\
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+% Example \longformdescription{} command to add another publication:
+
+%\longformpublication{Reference (format this manually as desired)}
+
+%------------------------------------------------
+\longformpublication{\textbf{ Ahmed Ezzat (2018)}.GDD: Geometrical Driven Diagnoses Based on Biomedical data. \textit{Journal of advanced research, Elsevier.}}\\
+\longformpublication{\textbf{ Ahmed Ezzat (2017)}. Search space pruning by evolving probabilistic strategies. \textit{Computer Engineering and Systems (ICCES), 2017 12th International Conference on. IEEE, 2017}}\\
+\longformpublication{\textbf{ Ahmed Ezzat (2017)}.A Comparative Study of Software Test Case Generation Tools for JAVA. \textit{SME}}\\
+\longformpublication{\textbf{ Ahmed Ezzat (2017)}.Fitness Aware Adaptive Mutation For Genetic Algorithms. \textit{RG}}\\
+\longformpublication{\textbf{ Ahmed Ezzat (2017)}.SpiNNaker Survey. \textit{RG}}\\
+%------------------------------------------------
+
+% As an alternative to a long-form publication list, you can create a shorter summary using only DOI values and years.
+
+% Example \doipublication{} command to add another publication:
+
+%\doipublication{Year}{DOI}{firstauthor}{spaceafter}
+
+% All four parameters are required (can be empty though)
+% A value of "firstauthor" in the third parameter will print the DOI in bold
+% A "spaceafter" value in the fourth parameter will add some vertical space -- this is to be used between years
+
+%------------------------------------------------
+
+%\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+%	
+%	%------------------------------------------------
+%	
+%	\doipublication{2017}{111}{Ahmed Ezzat}{spaceafter}
+%	
+%	%------------------------------------------------
+%	
+%	\doipublication{1990}{10.1139/p90-097}{firstauthor}{spaceafter}
+%	\doipublication{1986}{10.1139/v86-297}{}{}
+%	
+%	%------------------------------------------------
+%	
+%	\doipublication{1986}{10.1103/PhysRevA.34.2329}{}{spaceafter}
+%	
+%	%------------------------------------------------
+%	
+%	& \textit{First author publications in} \textbf{bold}\\
+%	
+%	%------------------------------------------------
+%	
+%\end{supertabular}
+
+\medskip % Extra whitespace before the next section
+
+%----------------------------------------------------------------------------------------
+
+
+
+
+\end{paracol}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
