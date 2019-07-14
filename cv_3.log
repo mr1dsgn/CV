@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.4.23)  3 NOV 2018 13:03
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.4.23)  14 JUL 2019 10:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1561,48 +1561,53 @@ Requested font "[fonts/EBGaramond-BoldItalic.ttf]/OT:script=latn;language=DFLT;
 mapping=tex-text;" at 12.0pt
  -> ./fonts/EBGaramond-BoldItalic.ttf
 
-Overfull \hbox (0.49573pt too wide) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Overfull \hbox (0.49573pt too wide) in paragraph at lines 95--96
 \TU/EBGaramond(0)/m/n/10 Maintain, upgrade and modify embedded systems as neede
 d. Work with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Overfull \hbox (17.44127pt too wide) in paragraph at lines 127--128
+Overfull \hbox (17.44127pt too wide) in paragraph at lines 139--140
 []\TU/EBGaramond(0)/m/n/12 THE EGYPTIAN COMPANY FOR ELECTRICAL POWER
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
@@ -1610,7 +1615,7 @@ Requested font "[fonts/EBGaramond-Bold.ttf]/OT:script=latn;language=DFLT;mappin
 g=tex-text;" at 10.0pt
  -> ./fonts/EBGaramond-Bold.ttf
 
-Overfull \hbox (20.31122pt too wide) in paragraph at lines 181--197
+Overfull \hbox (20.31122pt too wide) in paragraph at lines 193--209
 [] 
  []
 
@@ -1626,56 +1631,62 @@ Requested font "[fonts/EBGaramond-SC.ttf]/OT:script=latn;language=DFLT;mapping=
 tex-text;" at 9.0pt
  -> ./fonts/EBGaramond-SC.ttf
 
-Overfull \hbox (39.45822pt too wide) in paragraph at lines 247--276
+Overfull \hbox (39.45822pt too wide) in paragraph at lines 259--288
 [] 
  []
 
 
-Overfull \hbox (4.87825pt too wide) in paragraph at lines 323--341
+Overfull \hbox (4.87825pt too wide) in paragraph at lines 335--353
 [] 
  []
 
 
-Overfull \hbox (2.33162pt too wide) in paragraph at lines 380--391
+Overfull \hbox (4.33159pt too wide) in paragraph at lines 392--403
+\TU/EBGaramond(0)/m/n/10 Big-Data techniques, Enterprise techniques, Industrial
+ tech-
+ []
+
+
+Overfull \hbox (2.33162pt too wide) in paragraph at lines 392--403
 \TU/EBGaramond(0)/m/n/10 Altium designer, Mentor graphics expedition PCB, Circu
 its
  []
 
 
-Overfull \hbox (4.36827pt too wide) in paragraph at lines 380--391
+Overfull \hbox (4.36827pt too wide) in paragraph at lines 392--403
 \TU/EBGaramond(0)/m/n/10 Genetic Algorithms, Ant Colony, Bee colony, Bee hive, 
 Gray
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--391
+Underfull \hbox (badness 10000) in paragraph at lines 392--403
 
  []
 
 [1
 
 ]
-Overfull \hbox (0.78603pt too wide) in paragraph at lines 403--409
+Overfull \hbox (0.78603pt too wide) in paragraph at lines 415--421
 \TU/EBGaramond(0)/m/n/10 probabilistic strategies. \TU/EBGaramond(0)/m/it/10 Co
 mputer Engineering and Systems
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--409
+Underfull \hbox (badness 10000) in paragraph at lines 415--421
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 468.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 468.
  (./cv_3.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 456.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 456.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 468.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 468.
  ) 
 Here is how much of TeX's memory you used:
  31871 strings out of 493007
  628156 string characters out of 6134605
- 643621 words of memory out of 5000000
+ 645621 words of memory out of 5000000
  35645 multiletter control sequences out of 15000+600000
  531049 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
