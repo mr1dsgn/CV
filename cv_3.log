@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.9.15)  17 SEP 2019 20:39
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.9.15)  17 SEP 2019 22:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1455,7 +1455,7 @@ Requested font "[fonts/EBGaramond-Bold.ttf]/OT:script=latn;language=DFLT;mappin
 g=tex-text;" at 10.0pt
  -> ./fonts/EBGaramond-Bold.ttf
 
-Overfull \hbox (20.31122pt too wide) in paragraph at lines 193--209
+Overfull \hbox (20.31122pt too wide) in paragraph at lines 199--215
 [] 
  []
 
@@ -1471,64 +1471,64 @@ Requested font "[fonts/EBGaramond-SC.ttf]/OT:script=latn;language=DFLT;mapping=
 tex-text;" at 9.0pt
  -> ./fonts/EBGaramond-SC.ttf
 
-Overfull \hbox (39.45822pt too wide) in paragraph at lines 259--288
+Overfull \hbox (39.45822pt too wide) in paragraph at lines 266--295
 [] 
  []
 
 
-Overfull \hbox (4.87825pt too wide) in paragraph at lines 335--353
+Overfull \hbox (4.87825pt too wide) in paragraph at lines 342--360
 [] 
  []
 
 
-Overfull \hbox (4.33159pt too wide) in paragraph at lines 392--403
+Overfull \hbox (4.33159pt too wide) in paragraph at lines 399--410
 \TU/EBGaramond(0)/m/n/10 Big-Data techniques, Enterprise techniques, Industrial
  tech-
  []
 
 
-Overfull \hbox (2.33162pt too wide) in paragraph at lines 392--403
+Overfull \hbox (2.33162pt too wide) in paragraph at lines 399--410
 \TU/EBGaramond(0)/m/n/10 Altium designer, Mentor graphics expedition PCB, Circu
 its
  []
 
 
-Overfull \hbox (4.36827pt too wide) in paragraph at lines 392--403
+Overfull \hbox (4.36827pt too wide) in paragraph at lines 399--410
 \TU/EBGaramond(0)/m/n/10 Genetic Algorithms, Ant Colony, Bee colony, Bee hive, 
 Gray
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--403
+Underfull \hbox (badness 10000) in paragraph at lines 399--410
 
  []
 
 [1
 
 ]
-Overfull \hbox (0.78603pt too wide) in paragraph at lines 415--421
+Overfull \hbox (0.78603pt too wide) in paragraph at lines 422--428
 \TU/EBGaramond(0)/m/n/10 probabilistic strategies. \TU/EBGaramond(0)/m/it/10 Co
 mputer Engineering and Systems
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--421
+Underfull \hbox (badness 10000) in paragraph at lines 422--428
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 468.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 475.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 468.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 475.
  (./cv_3.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 468.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 468.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 475.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 475.
 Package rerunfilecheck Info: File `cv_3.out' has not changed.
 (rerunfilecheck)             Checksum: E5612DD71D70876CEF8AF19A2D2280ED.
  ) 
 Here is how much of TeX's memory you used:
  33381 strings out of 492916
  654696 string characters out of 6133345
- 677656 words of memory out of 5000000
+ 678656 words of memory out of 5000000
  37227 multiletter control sequences out of 15000+600000
  533252 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
